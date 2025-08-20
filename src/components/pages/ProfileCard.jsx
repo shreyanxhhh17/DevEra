@@ -10,7 +10,7 @@ export default function AccountSettings() {
       {/* Left: Profile Card */}
       <div className="w-full md:max-w-sm p-8 border-b md:border-b-0 md:border-r border-[#2e2e2e] flex flex-col items-center">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-10">
-          Dev<span className="text-brandBlue">Shrey</span>
+          Dev<span className="text-brandBlue">Era</span>
         </h1>
 
         <div className="bg-[#2b2b2b] w-20 h-20 md:w-24 md:h-24 rounded-full flex items-center justify-center mb-4">
