@@ -1,7 +1,7 @@
 import React from "react";
-import step1 from "../../assets/create-acc.svg";
-import step2 from "../../assets/join.svg";
-import step3 from "../../assets/work.svg";
+import step1 from "../../assets/create.webp";
+import step2 from "../../assets/groups.webp";
+import step3 from "../../assets/work.webp";
 
 const steps = [
   {

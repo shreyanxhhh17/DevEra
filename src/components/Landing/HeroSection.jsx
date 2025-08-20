@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiUserAdd } from "react-icons/hi";
+import mainImage from "../../assets/main.webp"
 
 export default function LandingPage() {
   return (
@@ -59,7 +60,17 @@ export default function LandingPage() {
         </div>
 
         {/* Right Placeholder Image Area */}
-        <div className="w-full lg:w-[50%] h-[300px] sm:h-[350px] md:h-[400px] bg-[#3a3a3a] rounded-lg"></div>
+        {/* <div className="w-full lg:w-[50%] h-[300px] sm:h-[350px] md:h-[400px] bg-[#3a3a3a] rounded-lg"></div> */}
+
+<div 
+  className="w-full lg:w-[50%] h-[300px] sm:h-[350px] md:h-[400px] bg-[#3a3a3a] rounded-lg"
+  style={{ 
+    backgroundImage: `url(${mainImage})`, 
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }}
+></div>
       </div>
     </div>
   );

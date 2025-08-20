@@ -8,27 +8,27 @@ const techStacks = [
   {
     title: "AI/ML",
     desc: "Join innovative projects using AI models, machine learning, and neural networks.",
-    img: "AiImage",
+    img: "src/assets/ai.webp",
   },
   {
     title: "Data Science",
     desc: "Join or create teams using Python, ML, and data analytics.",
-    img: "https://source.unsplash.com/400x200/?data,science",
+    img: "src/assets/ds.webp",
   },
   {
     title: "MERN Stack",
     desc: "Collaborate on full-stack projects with MongoDB, Express, React, and Node.js.",
-    img: "https://source.unsplash.com/400x200/?coding,developer",
+    img: "src/assets/mern.webp",
   },
   {
     title: "App Development",
     desc: "Build mobile apps using Flutter, React Native, and more.",
-    img: "https://source.unsplash.com/400x200/?mobile,app",
+    img: "src/assets/app.webp",
   },
   {
     title: "Blockchain",
     desc: "Explore blockchain technology and build decentralized apps.",
-    img: "https://source.unsplash.com/400x200/?blockchain",
+    img: "src/assets/blockchain.webp",
   },
 ];
 
