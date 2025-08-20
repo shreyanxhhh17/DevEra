@@ -2,33 +2,37 @@
 import React from "react";
 import Header from "../Landing/Header";
 import { Link } from "react-router-dom";
-// import AiImage from "../assets/AI.jpg"
+import AI from "../../assets/ai.webp";
+import DS from "../../assets/ds.webp";
+import MERN from "../../assets/mern.webp";
+import APP from "../../assets/app.webp";
+import BLOCK from "../../assets/blockchain.webp";
 
 const techStacks = [
   {
     title: "AI/ML",
     desc: "Join innovative projects using AI models, machine learning, and neural networks.",
-    img: "src/assets/ai.webp",
+    img: AI,
   },
   {
     title: "Data Science",
     desc: "Join or create teams using Python, ML, and data analytics.",
-    img: "src/assets/ds.webp",
+    img: DS,
   },
   {
     title: "MERN Stack",
     desc: "Collaborate on full-stack projects with MongoDB, Express, React, and Node.js.",
-    img: "src/assets/mern.webp",
+    img: MERN,
   },
   {
     title: "App Development",
     desc: "Build mobile apps using Flutter, React Native, and more.",
-    img: "src/assets/app.webp",
+    img: APP,
   },
   {
     title: "Blockchain",
     desc: "Explore blockchain technology and build decentralized apps.",
-    img: "src/assets/blockchain.webp",
+    img:BLOCK,
   },
 ];
 

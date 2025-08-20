@@ -1,4 +1,5 @@
 import React from "react";
+import name1 from "../../assets/pfp.webp";
 
 // Testimonial data with image paths.
 // Make sure these images exist in your public folder, e.g., 'public/images/'.
@@ -7,19 +8,19 @@ const testimonials = [
     text: `“Devera helped me join a dev group within a day. We built a full-stack app together and it boosted my confidence massively.”`,
     name: "Aarav Singh",
     tag: "Student, BITS Pilani",
-    image: "src/assets/pfp.webp",
+    image: name1,
   },
   {
     text: `“Loved the simplicity! I joined a ML team from IIT-Roorkee and worked on a research project — all thanks to Devera.”`,
     name: "Priyansh Mehta",
     tag: "AI Enthusiast",
-    image: "src/assets/pfp.webp",
+    image: name1,
   },
   {
     text: `“I always wanted to build real-world projects. Devera gave me the chance to team up and build something awesome.”`,
     name: "Rahul Verma",
     tag: "3rd Year CSE, VIT",
-    image: "src/assets/pfp.webp",
+    image: name1,
   },
 ];
 
