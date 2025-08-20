@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@tailwind utilities;
+/* src/index.css */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}         
+
+@theme{
+  --color-primary : #1E1E1E;
+  --color-secondary : #00376E;
+  --color-brandBlue : #317BBC;
+}
+
+@layer{
+  /* Custom pill hover styles */
+.hover-pill {
+  @apply text-gray-300 px-3 py-1 rounded-md transition-colors duration-200;
+}
+
+.hover-pill:hover {
+  @apply text-brandBlue bg-[#0f1e2e];
+}
+
+.active-pill {
+  @apply text-blue-500 bg-[#0f1e2e] px-3 py-1 rounded-md;
+}
+
+} add font in this 
